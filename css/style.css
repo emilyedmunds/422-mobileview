@@ -28,7 +28,7 @@ header img {
 	padding-top: 20px;
 	width: 200px;
 	height: 200px;
-	margin-left: 500px;
+	margin: auto;
 }
 
 header h1 {
@@ -86,7 +86,7 @@ h2{
 	color: #00274C;
   }
 
-  a.skip-main{
+  a.skip-to-main{
     left: 0;
     padding: 7px;
     -webkit-transition: top 1s ease-out;
@@ -96,7 +96,7 @@ h2{
     top: -50px;
 }
 
-  .skip-main a:visited{
+  .skip-to-main a:visited{
 	color:white;
   }
 
