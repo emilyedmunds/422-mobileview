@@ -211,16 +211,16 @@ h2{
 	text-align: center;
   }
 
-  .background-with-text {
+  .background-w-text {
 	background-image: url(images/diverse_meeting.heic);
 	background-color: #cccccc;
   }
 
-  .background-with-text h1 {
+  .background-w-text h1 {
 	color: white;
   }
 
-  .background-with-text h2 {
+  .background-w-text h2 {
 	color: white;
   }
 
