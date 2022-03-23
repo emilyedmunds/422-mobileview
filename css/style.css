@@ -216,7 +216,11 @@ h2{
 	background-color: #cccccc;
   }
 
-  .background-with-text h1, h2 {
+  .background-with-text h1 {
+	color: white;
+  }
+
+  .background-with-text h2 {
 	color: white;
   }
 
