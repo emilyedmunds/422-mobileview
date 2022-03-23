@@ -68,7 +68,7 @@ a:active {
 /*Style the images*/
 img{
     height: 200px;
-    width: 100%;
+    /* width: 100%; */
     border: 3px solid #00274C;
     padding: 25px;
     border-radius: 10px;
