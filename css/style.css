@@ -135,6 +135,29 @@ h2{
 	color: #00274C
   }
 
+  .looking-for {
+	background-color: #00274C;
+  	margin: 5px;
+  	padding: 20px;
+  }
+
+  .looking-for h1 {
+	font-size: 32px;
+	line-height: 1;
+	padding: 50px 0;
+	text-align: center;
+	color: white;
+  }
+
+  .looking-for p {
+	font-size: 16px;
+	line-height: 1;
+	padding: 50px 0;
+	text-align: center;
+	color: white;
+  }
+
+
 
 
 
