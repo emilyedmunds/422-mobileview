@@ -206,9 +206,18 @@ h2{
 	margin: 0 auto;
 	margin-bottom: 15px;
   }
-  
+
   #future-careers{
 	text-align: center;
+  }
+
+  .background-with-text {
+	background-image: "images/diverse_meeting.jpeg";
+	background-color: #cccccc;
+  }
+
+  .background-with-text h1, h2 {
+	color: white;
   }
 
 
