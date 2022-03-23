@@ -172,7 +172,7 @@ h2{
 	align-items: center;
   }
 
-  .members h3{
+  .members h2{
 	font-size: 25px;
 	padding: 20px;
 	line-height: 1;
@@ -180,7 +180,7 @@ h2{
 	color: #00274C;
   }
 
-  .members h2{
+  .members h3{
 	font-size: 20px;
 	padding: 20px;
 	line-height: 1;
