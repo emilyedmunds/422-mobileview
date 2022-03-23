@@ -5,131 +5,136 @@ html {
 /*Add padding and margin to space out the page.
 Make the font larger too.*/
 body{
-	margin:1%;
-	padding:1%;
-	font-size:150%;
+	margin: 0;
+	padding: 0;
+	font-size: 16pt;
+	font-family: "Lato", "sans-serif";
 }
 
-/*Make the h1 heading bigger with a bold font*/
-h1{
-	font-size: 2em; 
-	font-weight: bold;
-}
-
-.text{
-	background-color: rgba(255, 255, 255, .8);
-	border: 10px solid black;
-	padding: 30px;
-  }
-
-  .container{
-	display: grid;
-	grid-template-columns: 1fr 5fr 1fr;
-	row-gap: 30px;
-  }
-
-  .first, 
-.second {
-  grid-column: 2;
-}
-
-.first-image, 
-.second-image {
-  grid-column: 1/ span 3;
-  max-height: 500px;
-  overflow: hidden;
-}
-
-.first-image, 
-.first {
-  grid-row: 1/ span 1;
-}
-
-.second-image, 
-.second {
-  grid-row: 2/ span 1;
-}
-
-.active{
-	color: #00274C;
-	background: white;
-    text-transform: uppercase;
+header {
+	background-color: white;
+	background-position: white;
 	text-align: center;
 }
 
-a.naviitem {
-	color: #00274C;
-	background: white;
-	border: 1px solid #00274C;
+header {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
 }
-a:active {
+
+header img {
+	padding-top: 20px;
+	width: 200px;
+	height: 200px;
+	margin-left: 500px;
+}
+
+header h1 {
+	padding-top: 20px;
+	font-size: 50px;
+}
+
+p {
+	font-size: 16px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #00274C;
+}
+
+a:hover{
+	box-shadow: inset 100px 0 0 0 #00274C;
+  	color: white;
+}
+
+a:visited{
 	color:#00274C;
 }
-/*Style the images*/
-img{
-    height: 200px;
-    /* width: 100%; */
-    border: 3px solid #00274C;
-    padding: 25px;
-    border-radius: 10px;
-    margin: 10px;
+
+#main {
+	font-size: 16px;
+	margin: 10px;
+	padding: 10px;
+	width: 85%;
+	margin: 0 auto;
 }
 
-/*Make the h2 heading match h1*/
+h1 {
+	font-size: 50px;
+	line-height: 1;
+	padding: 50px 0;
+	text-align: center;
+	color: #00274C;
+}
+
 h2{
-	font-size: 2em; 
-	font-weight: bold;
-}
+	font-size: 32px;
+	line-height: 1.5;
+	text-align: center;
+	color: #00274C;
+	padding:20px;
+  }
 
-/*Improve the spacing for paragraphs AND headings*/
-p, h1, h2 {
-    padding: 10px;
-}
-
-/*Add borders around the main components and some
-space too*/
-header, nav, main, h1, footer{
-	border: 2px solid #00274C;
-	margin: 10px 0;
-}
-
-
-/*Change the styling for all of the list 
-items in the nav section*/
-nav li{
-	background-color: #00274C;
-	padding:10px;
-	width:25%;
-	/* border:1px solid black; */
-	display: inline-block;
-	width: 20%;
-	color: white;
-}
-
-
- a {
+  h3{
+	font-size: 30px;
+	line-height: 1;
+	padding: 50px 0;
+	text-align: center;
 	color: #00274C;
   }
 
-/*Added this so the links stay the same color*/
-a:visited{
-	color: #00274C;
+  a.skip-main{
+    left: 0;
+    padding: 7px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    position: absolute;
+    top: -50px;
 }
 
-img:hover{
-	opacity: 0.3;
- } 
+  .skip-main a:visited{
+	color:white;
+  }
 
- .column {
-	float: left;
-	width: 33.33%;
-	padding: 2px;
+  nav li{
+	display:inline;
+	padding-right:20px;
+  
   }
   
-  /* Clearfix (clear floats) */
-  .row::after {
-	content: "";
-	clear: both;
-	display: table;
+  nav{
+	display: flex;
+	padding: 25px 0; 
+	text-align: left;
+	justify-content: flex-end;
+	flex-wrap: wrap;
   }
+
+  .navitem a{ 
+	color: #808080;
+  }
+
+  .active a{
+    font-weight: bolder;
+    color: #00274C;
+    text-decoration: underline #00274C;
+}
+
+  footer{
+	background-color: white;
+	padding-top: 30px;
+	padding-bottom:30px;
+	text-align: center;
+  }
+
+  footer p{
+	color: #00274C
+  }
+
+
+
 
