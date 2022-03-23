@@ -38,11 +38,11 @@ header h1 {
 }
 
 p {
-	font-size: 20px;
+	font-size: 25px;
+	color: #00274C;
 }
 
 a:link {
-	text-decoration: none;
 	color: #00274C;
 }
 
@@ -212,7 +212,7 @@ h2{
   }
 
   .background-w-text {
-	background-image: url(images/diverse_meeting.heic);
+	background-image: url("images/diverse_meeting.heic");
 	background-color: #cccccc;
   }
 
