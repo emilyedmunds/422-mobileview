@@ -212,7 +212,7 @@ h2{
   }
 
   .background-with-text {
-	background-image: "images/diverse_meeting.heic";
+	background-image: url(images/diverse_meeting.heic);
 	background-color: #cccccc;
   }
 
