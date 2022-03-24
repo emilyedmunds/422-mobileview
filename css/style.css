@@ -226,11 +226,11 @@ margin-bottom: 15px;
 	grid-template-rows: auto auto auto;
 	grid-column-gap: 15px;
 	grid-row-gap: 15px;
-	/* height: auto; */
-	width: 90%;
+	/* height: auto; maybe get rid of */
+	/* width: 90%;
 	margin: 0 auto;
 	margin-bottom: 15px;
-  } */
+  } */ 
 
   #future-careers{
 	text-align: center;
