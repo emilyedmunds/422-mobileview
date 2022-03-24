@@ -360,6 +360,12 @@ justify-items: center;
 	100% {transform: rotate(359deg);}
 }
 
+@media (prefers-reduced-motion:reduce){
+	.rotate{
+	  animation: none;
+	}
+  }
+
 
 
 .contact-body {
