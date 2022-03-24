@@ -399,6 +399,7 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
     margin: 1rem 1rem;
     position: relative;
     border-radius: 4px;
+	padding: 6px;
 }
 
 @media only screen and (max-width: 768px){
@@ -455,7 +456,7 @@ textarea {
 }
 
 .submit-btn {
-    padding: 7px 35px;
+    padding: 6px;
     border-radius: 60px;
     display: inline-block;
     background-color: #4b8cfb;
