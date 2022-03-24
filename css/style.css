@@ -250,6 +250,16 @@ h2{
   }
 }
 
+.rotate {
+	animation: rotation 8s infinite linear;
+}
+
+.rotate {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
 
 
 
