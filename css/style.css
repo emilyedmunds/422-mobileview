@@ -212,7 +212,7 @@ h2{
   }
 
   .background-w-text {
-	background-image: url(https://emilyedmunds.github.io/422-mobileview/images/diverse_meeting.heic);
+	background-image: url("https://emilyedmunds.github.io/422-mobileview/images/diverse_meeting.heic");
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
