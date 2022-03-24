@@ -399,7 +399,6 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
     margin: 1rem 1rem;
     position: relative;
     border-radius: 4px;
-	padding: 6px;
 }
 
 @media only screen and (max-width: 768px){
@@ -428,7 +427,7 @@ input,
 textarea {
     padding: 30px;
     border: 0;
-    width: 100%;
+    width: 125px;
     font-size: 1rem;
     background-color: #2d2d2d;
     color: white;
