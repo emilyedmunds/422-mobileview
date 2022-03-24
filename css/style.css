@@ -482,6 +482,10 @@ textarea {
         float: none;
         text-align:center;
     }
+
+	.btn-large {
+		width: 100%;
+	}
 }
 
 input[type=checkbox] + label {
