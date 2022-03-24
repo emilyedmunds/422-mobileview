@@ -485,6 +485,10 @@ textarea {
 	}
 }
 
+.contact {
+	color: white;
+}
+
 input[type=checkbox] + label {
   color: #ccc;
   font-style: italic;
