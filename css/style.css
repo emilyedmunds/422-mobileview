@@ -396,7 +396,7 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
 .styled-input {
     float: left;
     width: 100%;
-    margin: 1rem 0;
+    margin: 1rem 1rem;
     position: relative;
     border-radius: 4px;
 }
