@@ -102,6 +102,10 @@ h2{
     top: -50px;
 }
 
+.fa-computer-classic:before {
+    content: "\f7b6";
+}
+
   .skip-to-main a:visited{
 	color:white;
   }
@@ -111,6 +115,11 @@ h2{
 	padding-right:20px;
   
   }
+
+  .fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
   
   /* nav{
 	display: flex;
