@@ -367,7 +367,7 @@ justify-items: center;
     padding-top: 85px;
 }
 
-.contact h1 {
+.contact-row h1 {
     font-family: 'Poppins', sans-serif, 'arial';
     font-weight: 600;
     font-size: 72px;
@@ -375,7 +375,7 @@ justify-items: center;
     text-align: center;
 }
 
-.contact h4 {
+.contact-row h4 {
     font-family: 'Roboto', sans-serif, 'arial';
     font-weight: 400;
     font-size: 20px;
@@ -395,7 +395,7 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
 
 .styled-input {
     float: left;
-    width: 293px;
+    width: 100%;
     margin: 1rem 0;
     position: relative;
     border-radius: 4px;
@@ -449,8 +449,7 @@ textarea {
 }
 
 .input-container {
-    width: 650px;
-    max-width: 100%;
+    width: 100%;
     margin: 20px auto 25px auto;
 }
 
